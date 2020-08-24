@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="loginApp.jnlp">
+  <information>
+    <title>loginApp</title>
+    <vendor>Unknown</vendor>
+    <description>loginApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="jfoenix-8.0.10.jar" size="2710207" download="eager" />
+    <jar href="jfoenix-9.0.10.jar" size="2432549" download="eager" />
+    <jar href="loginApp.jar" size="18171" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="900" height="400" main-class="sample.Main"  name="loginApp" />
+  <update check="background"/>
+</jnlp>
